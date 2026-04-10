@@ -649,7 +649,7 @@ async function suggestRecipe(chatId: number, text: string): Promise<void> {
 }
 
 async function showInventory(chatId: number): Promise<void> {
-  await callService(`${inventoryServiceUrl}/remaining`, {
+  await callService(`${inventoryServiceUrl}/remaining?chatId=${chatId}`, {
     method: "GET"
   });
 
