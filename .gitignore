@@ -5,3 +5,18 @@ dist/
 !.env.example
 npm-debug.log*
 .DS_Store
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+.vs/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+.factorypath
